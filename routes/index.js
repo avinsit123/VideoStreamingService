@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const { MongoClient } = require("mongodb");
 // Replace the uri string with your MongoDB deployment's connection string.
-const uri = "mongodb+srv://avinsit123:YpeqpQnHXe2x5S1E@cluster0.ovqi8.mongodb.net/sample_project?retryWrites=true&w=majority";
+const uri = "";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 async function insertDocument(personDocument) {
