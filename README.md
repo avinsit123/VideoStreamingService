@@ -1,2 +1,2 @@
 # VideoStreamingService
-Video Streaming Service with various features.
+Building a youtube like streaming service.
